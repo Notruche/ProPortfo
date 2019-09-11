@@ -1,0 +1,270 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss"
+
+@media screen and (Max-width : 845px)
+    body
+        background-image: url("../src/assets/img/ciel.png")
+        background-size-y: contain
+    .page1
+        background-color: white
+        border-radius: 10%
+
+
+
+
+
+
+body 
+    margin: 0
+
+
+.pinContainer 
+    width: 100%
+    height: 100vh
+    position: relative
+    opacity: 1 !important
+
+.scrollmagic-pin-spacer
+    z-index: 2 !important
+
+.download
+    background-color: white
+    color: black
+    border: 4px dashed #4CAF50
+
+.panel 
+    height: 100%
+    width: 100%
+    position: absolute
+    top: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    color: white
+    z-index: 5
+
+    
+.panel-0
+    left: 0
+
+.panel-1 
+    left: 100%
+
+.panel-2 
+    left: 200%
+
+.panel-3 
+    left: 400%
+
+.panel-4 
+    left: 300%
+
+.norbert
+    position: fixed
+    bottom: 11%
+    height: 30%
+    z-index: 2
+    left: 2%
+
+.sol
+    position: fixed
+    bottom: 0
+    z-index: -1
+    height: 100vh
+    width: 3000%
+    background-image: url("../src/assets/img/sol.png")
+    background-size: contain
+    @media screen and (Max-width : 1300px)
+        width: 5000%
+
+.ciel
+    position: fixed
+    bottom: 0
+    z-index: -4
+    height: 100vh
+    width: 500%
+    background-image: url("../src/assets/img/ciel.png")
+    background-size: contain
+
+.mont1
+    position: fixed
+    bottom: 0
+    z-index: -2
+    background-image: url("../src/assets/img/mont.png")
+    background-size: contain
+    height: 100vh
+    width: 1500%
+    @media screen and (Max-width : 1300px)
+        width: 5000%
+    
+
+.mont2
+    position: fixed
+    bottom: 0
+    z-index: -3
+    background-image: url("../src/assets/img/mont2.png")
+    background-size: contain
+    height: 100vh
+    width: 850%
+    @media screen and (Max-width : 1300px)
+        width: 5000%
+
+.essai  
+    position: absolute
+    z-index: 6
+.essai2
+    position: absolute
+    z-index: 6
+
+.titre
+    color: rgba(150, 238, 109, 0.664)
+
+.pti
+    font-size: 9pt
+    @media screen and (Max-height : 1000px)
+        font-size: 7pt
+    @media screen and (Max-width : 1300px)
+        font-size: 5pt
+    @media screen and (Max-width : 845px)
+        font-size: 7pt
+
+    
+
+.under
+    text-decoration: underline
+    text-decoration-color: lightgreen
+
+.one
+    margin-top: 1.5%
+    background-color: white
+    margin-bottom: 10%
+    @media screen and (Max-height : 900px)
+        max-height: 80vh
+        overflow: scroll
+
+
+.two
+    margin-top: 1.5%
+    background-color: white
+    margin-bottom: 10%
+    @media screen and (Max-height : 900px)
+        max-height: 80vh
+        overflow: scroll
+
+.tree
+    margin-top: 1.5%
+    background-color: white
+    margin-bottom: 10%
+    @media screen and (Max-height : 900px)
+        max-height: 80vh
+        overflow: scroll
+
+.four
+    margin-top: 1.5%
+    background-color: white
+    margin-bottom: 10%
+    @media screen and (Max-height : 900px)
+        max-height: 80vh
+        overflow: scroll
+
+
+
+.info
+    margin-top: 3%
+    @media screen and (Max-width : 1300px)
+        margin-top: 0
+
+.folioimages
+    position: fixed
+    background-color: rgba(0, 0, 0, 0.5)
+    z-index: 10
+    height: 100vh
+
+.contenuimg
+    max-height: 80vh
+    overflow: scroll
+    margin-top: auto
+    margin-bottom: auto
+
+[alt="port"]
+    max-width: 100%
+    
+
+[alt="img"]
+    max-width: 80%
+    @media screen and (Max-height : 1000px)
+        max-width: 60%
+    @media screen and (Max-width : 1300px)
+        max-width: 100%
+
+[alt="barre"]
+    max-width: 100%
+    @media screen and (Max-width : 1300px)
+        max-width: 150%
+        margin-left: 50%
+
+[alt="serv"]
+    max-width: 45%
+    @media screen and (Max-height : 900px)
+        max-width: 30%
+    @media screen and (Max-width : 1300px)
+        max-width: 100%
+
+[alt="norb"]
+    max-height: 100%
+
+[alt="fol"]
+    max-width: 100%
+
+.mail
+    @media screen and (Max-width : 695px)
+        font-size: 6pt
+    @media screen and (Max-width : 565px)
+        font-size: 5pt
+
+h1,p,h2,h3,h4,h5,h6,li,a
+    font-family: 'Press Start 2P', cursive
+
+h6
+    font-size: 9pt
+    @media screen and (Max-height : 900px)
+        font-size: 7pt
+    @media screen and (Max-width : 1300px)
+        font-size: 7pt
+    @media screen and (Max-width : 695px)
+        font-size: 6pt
+
+h5
+    @media screen and (Max-width : 1300px)
+        font-size: 9pt
+    @media screen and (Max-width : 695px)
+        font-size: 6pt
+
+h4
+    @media screen and (Max-width : 1300px)
+        font-size: 11pt
+
+h3
+    @media screen and (Max-width : 1300px)
+        font-size: 13pt
+
+h2
+    @media screen and (Max-width : 1300px)
+        font-size: 15pt
+
+h1
+    @media screen and (Max-width : 1300px)
+        font-size: 17pt
+
+span
+    background-color: lightgreen
+    font-size: 12pt
+    @media screen and (Max-width : 1300px)
+        font-size: 9pt
+
+textarea
+    max-height: 50vh
+    min-height: 25vh
+    border: 4px dashed #4CAF50
+
+input
+    border: 4px dashed #4CAF50
